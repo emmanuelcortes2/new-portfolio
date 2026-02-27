@@ -1,0 +1,47 @@
+.project-card {
+    background-color: #1A2236;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-title {
+    font-family: inherit;
+    font-weight: lighter;
+    font-size: 1.8em;
+    line-height: 80%;
+    letter-spacing: 0%;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
+
+.project-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.project-description{
+    background-color: #1A2236;
+    padding: 1rem;
+}
+
+.project-details{
+    font-size: 1.25em;
+    font-weight: 500;
+    font-family: inherit;
+    border: 1px solid #ffffff;
+    background-color: #1A2236;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+}
+
+.project-details:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #1A2236;
+}
