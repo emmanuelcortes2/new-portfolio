@@ -1,0 +1,12 @@
+.title {
+    align-self: start;
+    font-family: Playfair Display;
+    font-weight: 400;
+    letter-spacing: 0%;
+    font-size: 4em;
+    line-height: 100%;
+    color: #1A2236;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+}
