@@ -1,8 +1,19 @@
+import { CollabButton } from "./Collab-button"
 
 export const Hero = () => {
     return (
-        <section>
-            <h1>Hero</h1>
+        <section className="hero">
+            <div className="hero-text-container">
+                <h1 className="hero-title">Emmanuel <span><br />Cortés</span></h1>
+                <div className="hero-text-container">
+                    <p>Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.</p>
+                    <p>If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
+                </div>
+                <CollabButton />
+            </div>
+            <div className="hero-image">
+                <img src="assets/image-geometry_1.svg" alt="hero-desktop" className="desktop-image" />
+            </div>
         </section>
     )
 }

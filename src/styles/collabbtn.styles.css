@@ -1,0 +1,25 @@
+.collab-button {
+    background-color: #1A2236;
+    color: white;
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: 4rem;
+    max-height: 7rem;
+    width: 100%;
+    max-width: 22rem;
+    border: 1px solid transparent;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: inherit;
+    transition: border-color 0.25s;
+    letter-spacing: 0%;
+    line-height: 100%;
+    margin: 2rem auto;
+}
+
+.collab-button:hover {
+    background-color: white;
+    color: #1A2236;
+    border: 2px solid #1A2236;
+    cursor: pointer;
+}
