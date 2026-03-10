@@ -1,10 +1,11 @@
-import { ProjectCard } from "./ProjectCard"
-import { Title } from "./Title"
-import { type ProjectCardProps } from "./ProjectCard"
+import { ProjectCard } from "../ProjectCard/ProjectCard"
+import { Title } from "../Title/Title"
+import { type ProjectCardProps } from "../ProjectCard/ProjectCard"
+import projectImage from "../../assets/image5.svg"
 
 
 const mock: ProjectCardProps = {
-    imageUrl: "assets/image5.svg",
+    imageUrl: projectImage,
     title: "Project name goes here",
     technologies: [
         { name: "React" },

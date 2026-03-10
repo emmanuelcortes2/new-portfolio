@@ -1,0 +1,39 @@
+.skillset-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.skillset-card {
+    font-family: inherit;
+    padding: 2rem;
+    height: 290px;
+    overflow: hidden;
+}
+
+.skillset-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.skillset-list {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    line-height: 150%;
+}
+
+.skillset-icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 95.5%;
+    bottom: 5%;
+    transform: translateX(-50%);
+}

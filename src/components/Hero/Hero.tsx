@@ -1,5 +1,6 @@
-import { CollabButton } from "./Collab-button"
-import { Title } from "./Title"
+import { CollabButton } from "../Collab-button/Collab-button"
+import { Title } from "../Title/Title"
+import heroImage from "../../assets/image-geometry_1.svg"
 
 export const Hero = () => {
     return (
@@ -13,7 +14,7 @@ export const Hero = () => {
                 <CollabButton />
             </div>
             <div className="hero-image">
-                <img src="assets/image-geometry_1.svg" alt="hero-desktop" className="desktop-image" />
+                <img src={heroImage} alt="hero-desktop" className="desktop-image" />
             </div>
         </section>
     )

@@ -1,4 +1,4 @@
-import { TechBadge } from "./TechBadge"
+import { TechBadge } from "../TechBadge/TechBadge"
 
 export interface ProjectCardProps {
     imageUrl: string
@@ -21,8 +21,8 @@ export const ProjectCard = (props: ProjectCardProps) => {
                 {props.title}
             </div>
             <div className="project-technologies">
-                {props.technologies.map((technology) => (
-                    <TechBadge name={technology.name} />
+                {props.technologies.map((technology, index) => (
+                    <TechBadge name={technology.name} key={index} />
                 ))}
             </div>
             <div className="project-description">

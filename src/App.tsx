@@ -1,9 +1,9 @@
-import { Nav } from './components/Nav'
-import { Hero } from './components/Hero'
-import { Projects } from './components/Projects'
-import { About } from './components/About'
-import { Contact } from './components/Contact'
-import { Footer } from './components/Footer'
+import { Nav } from './components/Nav/Nav'
+import { Hero } from './components/Hero/Hero'
+import { Projects } from './components/Projects/Projects'
+import { About } from './components/About/About'
+import { Contact } from './components/Contact/Contact'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
 
