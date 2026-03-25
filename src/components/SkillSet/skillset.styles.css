@@ -7,6 +7,7 @@
 }
 
 .skillset-card {
+    position: relative;
     font-family: inherit;
     padding: 2rem;
     height: 290px;
@@ -27,13 +28,15 @@
     flex-direction: column;
     margin-left: 1rem;
     line-height: 150%;
+    position: absolute;
+    z-index: 2; 
 }
 
 .skillset-icon {
+    position: sticky;
+    bottom: 0;
+    right: 0;
     width: 100px;
     height: 100px;
-    position: relative;
-    left: 95.5%;
-    bottom: 5%;
-    transform: translateX(-50%);
+    z-index: 1;
 }

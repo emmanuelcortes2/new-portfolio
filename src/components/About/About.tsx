@@ -10,19 +10,19 @@ const Skills : Skills[] = [
         title: "Frontend",
         skills_list: ["React", "Next.js", "Vite"],
         background: "#FEBF52",  
-        icon: imageGeometry
+        icon: imageGeometry3
     },
     {
         title: "Backend",
-        skills_list: ["Node.js", "Nest.JS", "Python", "FastAPI"],
+        skills_list: ["Node.js", "nest.js", "Python", "FastAPI"],
         background: "#1C528A", 
-        icon: imageGeometry2
+        icon: imageGeometry
     },
     {
         title: "DevOps",
         skills_list: ["Docker", "Jenkins", "AWS"],
         background: "#E2505C", 
-        icon: imageGeometry3
+        icon: imageGeometry2
     }
 ]
 
